@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherFlag Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <main>
+        <nav id="navigationsection">
+            <h1>WeatherFlag Explorer</h1>
+            <p>Este projeto consulta a temperatura atual, a sensação térmica, o clima, e exibe a bandeira do país correspondente à cidade digitada pelo usuário.
+
+            </p>
+            <br>
+            <input type="text" name="" id="cityname" placeholder="Digite o nome da cidade: ">
+            <br>
+            <input type="button" value="Consultar Informações" id="btnprocurar">
+        </nav>
+        <div id="previsao">
+            <p id="temp">
+            </p>
+            <div id="result">
+                <ul>
+                    <li>
+                        <p id="temp_feels"></p>
+                    </li>
+                    <li>
+                        <p id="country"></p>
+                    </li>
+                    <li>
+                        <p id="weather"></p>
+                    </li>
+                </ul>
+            </div>
+            <img src="" alt="Bandeira do País" id="bandeira">
+
+           
+        </div>
+        
+    </main>
+
+    <footer>
+
+        <p>Desenvolvido por Soraia Siquelli&copy; 2024 </p>
+    </footer>
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+    nav {
+        width: 90%; /* Utiliza largura relativa para melhor responsividade */
+        max-width: 600px; /* Define uma largura máxima para o centro */
+        margin-top: 20%; /* Ajusta a margem superior para dispositivos menores */
+    }
+
+    #previsao {
+        width: 100%; /* Utiliza largura relativa para melhor responsividade */
+        height:70%;
+        max-width: 550px;
+        margin-top: 20%; /* Ajusta a margem superior para dispositivos menores */
+        padding: 10px;
+        background-color: transparent;
+        
+    }
+    p#temp{
+        padding: 10px;
+        color: white;
+    }
+    #cityname {
+        width: 90%; /* Utiliza largura relativa para melhor responsividade */
+        max-width: 400px;
+        margin-bottom: 10%; /* Ajusta a margem inferior para dispositivos menores */
+    }
+
+    #btnprocurar {
+        width: 90%; /* Utiliza largura relativa para melhor responsividade */
+        max-width: 250px;
+        margin-bottom: 10%; /* Ajusta a margem inferior para dispositivos menores */
+    }
+    #result{
+        width: 95%;
+        margin: 0;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+    }
+    ul li{
+        margin-left: 20px;
+        font-size: 16px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        padding: 0px;
+    
+    }
+    #bandeira{
+        width: 40%;
+        height: 20%;
+    }
+}
