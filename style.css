@@ -2,8 +2,8 @@ main{
     height: 100vh;
 }
 body{
-    background: rgb(0,1,36);
-    background: linear-gradient(90deg, rgba(0,1,36,1) 0%, rgba(40,125,186,1) 66%);
+    /*background: rgb(0,1,36);
+    background: linear-gradient(90deg, rgba(0,1,36,1) 0%, rgba(40,125,186,1) 66%);*/
     background-size: cover; /* Ajusta o tamanho para cobrir todo o elemento */
     font-family: 'Helvetica';
     padding: 0;
@@ -11,23 +11,31 @@ body{
 
 
 }
+main{
+    border: 1px solid white;
+    margin-top: 10%;
+}
+#logoweather{
+    width: 38%;
+}
 nav{
     width: 600px;
     height: 250px;
     margin: auto;
     text-align: center;
-    margin-top: 12%
+    margin-top: 25% !important;
+
 }
 nav > h1{
     margin-top: 5%;
-    color: white;
-    font-size: 1.8em;   
+    color: black;
+    font-size: 1.4em;   
 }
 
 nav > p{
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
+    color: black;;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #previsao{
@@ -44,23 +52,22 @@ nav > p{
 
 
 #cityname{
-    width: 400px;
+    width: 275px !important;
     height: 35px;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
     border-radius: 10px;
     margin-top: 2%;
     margin-bottom: 5%;
-}
-::placeholder{
-    letter-spacing: 2px;
+    border: 0.5px solid black;
+    padding: 5px;
 }
 #btnprocurar {
-    width: 250px;
-    height: 50px;
+    width: 100px;
     border: none;
+    padding: 2%;
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     background: linear-gradient(145deg, #1d8ce0, #0d6efd);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
@@ -103,7 +110,7 @@ p#temp, p#temp_feels, p#country, p#weather{
     font-weight: bold;
     font-size: 14px;
 }
-img{
+/*img{
     width: 30%;
     height: 20%;
     border: 2px solid;
@@ -111,17 +118,27 @@ img{
     border: none;
     display: none;
     margin-top: 60px;
-}
+}*/
 
 /*Informações*/
+
+#previsao{
+    border: 1px solid black;
+
+}
 
 p#temp{
     font-size: 70px;
     text-shadow: 10px 10px 10px rgba(255, 255, 255, 0.8);
-    padding: 30px;
-    padding-bottom: 10px;
     padding-top: 0%;
-    color: white;
+    margin-top: 50%;
+    color: black !important;
+    font-weight: 100;
+}
+
+#bandeira{
+    width: 100px !important; 
+    margin-top: -15%;
 }
 .small-font {
     font-size: 0.5em; /* ou qualquer valor desejado */
